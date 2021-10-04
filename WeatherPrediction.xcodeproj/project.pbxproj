@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		FB7D0368270A74D200412D90 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D0367270A74D200412D90 /* main.swift */; };
+		FB7D036F270A77C500412D90 /* WeatherPrediction.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D036E270A77C500412D90 /* WeatherPrediction.swift */; };
+		FB7D0371270A77D900412D90 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D0370270A77D900412D90 /* Session.swift */; };
+		FB7D0373270A809100412D90 /* AdviceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7D0372270A809100412D90 /* AdviceViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		FB7D0364270A74D200412D90 /* WeatherPrediction */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WeatherPrediction; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB7D0367270A74D200412D90 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB7D036E270A77C500412D90 /* WeatherPrediction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPrediction.swift; sourceTree = "<group>"; };
+		FB7D0370270A77D900412D90 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
+		FB7D0372270A809100412D90 /* AdviceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdviceViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				FB7D0367270A74D200412D90 /* main.swift */,
+				FB7D036E270A77C500412D90 /* WeatherPrediction.swift */,
+				FB7D0370270A77D900412D90 /* Session.swift */,
+				FB7D0372270A809100412D90 /* AdviceViewModel.swift */,
 			);
 			path = WeatherPrediction;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7D0373270A809100412D90 /* AdviceViewModel.swift in Sources */,
 				FB7D0368270A74D200412D90 /* main.swift in Sources */,
+				FB7D036F270A77C500412D90 /* WeatherPrediction.swift in Sources */,
+				FB7D0371270A77D900412D90 /* Session.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
